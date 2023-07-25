@@ -5,7 +5,10 @@ COPY target/01-maven-web-app*.war /usr/local/tomcat/webapps/maven-web-app.war
 RUN instruction
 CMD instruction
 
-EXPOSE 8080
+MAINTAINER ASHOK
+
+EXPOSE 9090
 // added new line
 
 // new line data
+
